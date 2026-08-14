@@ -2,7 +2,7 @@ import { socialLinksArr } from "@/utils/social-contacts";
 
 export default function ContactInfoAndSocial() {
   return (
-    <div className="lg:col-span-5 space-y-gutter">
+    <div className="space-y-gutter">
       {/* <!-- Direct Connect Card --> */}
       <div className="glass-panel p-8 rounded-xl relative overflow-hidden">
         <div className="absolute top-0 right-0 p-4 opacity-10">

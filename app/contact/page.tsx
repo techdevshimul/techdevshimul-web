@@ -8,7 +8,7 @@ export default function Contact() {
     <>
       <main className="relative z-10 pt-32 pb-stack-lg max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <ContactHeader />
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+        <div className="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 gap-24">
           <ContactForm />
           <ContactInfoAndSocial />
         </div>
