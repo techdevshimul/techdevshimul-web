@@ -15,12 +15,19 @@ export default function HeroSection() {
             </span>
           </div>
           <h1 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-white">
+            <span className="text-primary">techdevshimul</span>
+            <br />
             Engineering <span className="text-primary italic">Digital</span>
             <br />
             <span className="text-on-surface-variant">Frontiers.</span>
           </h1>
           <p className="font-headline-sm text-headline-sm text-on-surface-variant max-w-2xl font-light">
-            Shimul Hossain — Full Stack Web Architect
+            techdevshimul by Shimul Hossain — Full Stack Web Architect
+          </p>
+          <p className="font-body-lg text-body-lg text-outline max-w-xl leading-relaxed">
+            techdevshimul is a professional web application and portfolio
+            platform where visitors can evaluate technical capabilities, review
+            case studies, and use Google Sign-In for authenticated interactions.
           </p>
           <p className="font-body-lg text-body-lg text-outline max-w-xl leading-relaxed">
             Building high-performance, scalable web applications with clinical

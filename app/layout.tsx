@@ -21,8 +21,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shimul Hossain | Tech Dev Shimul",
-  description: "Portfolio of Shimul Hossain (techdevshimul)",
+  title: "techdevshimul | Shimul Hossain",
+  description:
+    "techdevshimul is Shimul Hossain's web application and portfolio platform.",
 };
 
 export default function RootLayout({
@@ -38,7 +39,7 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <title>Shimul Hossain | Full Stack Web Developer</title>
+        <title>techdevshimul | Full Stack Web Developer</title>
         {/* eslint-disable-next-line @next/next/no-page-custom-font -- icon font, not a text font; next/font/google doesn't optimize variable icon fonts the same way */}
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"

@@ -13,8 +13,8 @@ const LinksOptions = [
   { name: "Blogs", href: "/blogs" },
   { name: "Skills", href: "/skills" },
   { name: "Contact", href: "/contact" },
-  { name: "Testimonials", href: "/testimonials" },
-  { name: "Workflows", href: "/workflows" },
+  // { name: "Testimonials", href: "/testimonials" },
+  // { name: "Workflows", href: "/workflows" },
 ];
 
 const Header: React.FC = () => {
@@ -22,13 +22,18 @@ const Header: React.FC = () => {
   return (
     <header className="fixed top-0 w-full z-50 bg-charcoal/80 backdrop-blur-md border-b border-glass-border shadow-sm shadow-glow-electric/5">
       <nav className="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
-        <Image
-          alt="Shimul Hossain"
-          src="/assets/images/logo.png"
-          width={40}
-          height={40}
-          priority
-        />
+        <Link href="/" className="flex items-center gap-3">
+          <Image
+            alt="techdevshimul"
+            src="/assets/images/logo.png"
+            width={40}
+            height={40}
+            priority
+          />
+          <span className="hidden sm:inline-block text-primary font-label-md text-label-md font-bold tracking-wide">
+            techdevshimul
+          </span>
+        </Link>
         <ul className="hidden md:flex gap-8 items-center">
           {LinksOptions.map((link) => (
             <li className="" key={link.name}>
