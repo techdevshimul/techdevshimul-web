@@ -118,6 +118,10 @@
   --text-label-sm--font-weight: 600;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Base element styles */
 body {
   background-color: var(--color-background);
